@@ -1,0 +1,65 @@
+json-schema-validator (2.3-1) unstable; urgency=low
+
+  * Ported to Debian for LAVA testing.
+
+ -- Neil Williams <codehelp@debian.org>  Tue, 14 May 2013 20:16:16 +0000
+
+json-schema-validator (2.3-0ubuntu1~linaro2) precise; urgency=low
+
+  * Added build time dependency on python-doc to get local copy of
+    intersphinx inventory. Idea from Michael Fladischer's post on
+    debian-python: http://lists.debian.org/debian-
+    python/2011/07/msg00016.html
+
+ -- Marcin Juszkiewicz <marcin.juszkiewicz@linaro.org>  Mon, 16 Jul 2012 10:39:33 +0200
+
+json-schema-validator (2.3-0ubuntu1~linaro1) quantal; urgency=low
+
+  * New upstream release.
+  * Added Suggests: -doc package to main one.
+  * Use 'sphinxdoc' debhelper's addon.
+  * Added 'nocheck' guard for running tests.
+
+ -- Marcin Juszkiewicz <marcin.juszkiewicz@linaro.org>  Mon, 28 May 2012 11:55:03 +0800
+
+json-schema-validator (2.2-0ubuntu1) precise; urgency=low
+
+  * Switched to dh_python2
+
+ -- Marcin Juszkiewicz <marcin.juszkiewicz@linaro.org>  Thu, 26 Apr 2012 08:56:38 +0200
+
+json-schema-validator (2.2-0) unstable; urgency=low
+
+  * Upstream renamed project.
+  * Cleanup before uploading to Ubuntu.
+    - added link to licence text in debian/copyright
+    - fixed descriptions to comply with lintian
+  * Switch to dpkg-source 3.0 (quilt) source format.
+  * Added myself to Uploaders.
+  * Bumped standards version to 3.9.3.
+
+ -- Marcin Juszkiewicz <marcin.juszkiewicz@linaro.org>  Fri, 13 Apr 2012 20:49:53 +0200
+
+linaro-json (2.0.1-0ubuntu1~zyga2) lucid; urgency=low
+
+  * Add missing dependency on python-simplejson
+
+ -- Zygmunt Krynicki <zygmunt.krynicki@linaro.org>  Fri, 01 Jul 2011 16:09:01 +0100
+
+linaro-json (2.0.1-0ubuntu1~zyga1) lucid; urgency=low
+
+  * New upstream release
+
+ -- Zygmunt Krynicki <zygmunt.krynicki@linaro.org>  Thu, 30 Jun 2011 12:17:09 +0100
+
+linaro-json (2.0-0ubuntu1~zyga2) lucid; urgency=low
+
+  * Fix debian/copyright (it used to refer to different package)
+
+ -- Zygmunt Krynicki <zygmunt.krynicki@linaro.org>  Mon, 28 Feb 2011 13:58:47 +0100
+
+linaro-json (2.0-0ubuntu1~zyga1) lucid; urgency=low
+
+  * Initial packaging
+
+ -- Zygmunt Krynicki <zygmunt.krynicki@linaro.org>  Fri, 25 Feb 2011 19:15:55 +0100

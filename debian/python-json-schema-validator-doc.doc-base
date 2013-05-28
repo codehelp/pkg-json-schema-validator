@@ -1,0 +1,10 @@
+Document: python-json-schema-validator-doc
+Title: Python json-schema-validator Documentation
+Author: Zygmunt Krynicki
+Abstract: This documentation contains usage guide, programming reference and
+ changelog for the json-schema-validator package.
+Section: Programming/Python
+
+Format: HTML
+Index: /usr/share/doc/python-json-schema-validator-doc/html/index.html
+Files: /usr/share/doc/python-json-schema-validator-doc/html/*.html
