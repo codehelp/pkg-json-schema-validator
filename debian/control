@@ -4,7 +4,7 @@ Priority: optional
 Build-Depends: python, python-setuptools (>= 0.6b3), debhelper (>= 7.0.50~), python-simplejson(>= 2.0.9)
 Build-Depends-Indep: python-sphinx (>= 1.0.7+dfsg), libjs-jquery,
  python-versiontools (>= 1.4), python-testtools (>= 0.9.2), python-testscenarios (>= 0.1)
-Standards-Version: 3.9.3
+Standards-Version: 3.9.4
 Maintainer: Linaro Developers <linaro-dev@lists.linaro.org>
 Uploaders: Zygmunt Krynicki <zygmunt.krynicki@linaro.org>,
  Marcin Juszkiewicz <marcin.juszkiewicz@linaro.org>,
