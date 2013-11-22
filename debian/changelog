@@ -1,6 +1,7 @@
 json-schema-validator (2.3-1) unstable; urgency=low
 
   * Ported to Debian for LAVA testing.
+  * Drop intersphinx patch which is now applied upstream.
 
  -- Neil Williams <codehelp@debian.org>  Tue, 14 May 2013 20:16:16 +0000
 
