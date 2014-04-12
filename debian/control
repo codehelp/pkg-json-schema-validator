@@ -1,9 +1,12 @@
 Source: json-schema-validator
 Section: python
 Priority: optional
-Build-Depends: python, python-setuptools (>= 0.6b3), debhelper (>= 7.0.50~), python-simplejson(>= 2.0.9)
-Build-Depends-Indep: python-sphinx (>= 1.0.7+dfsg), libjs-jquery,
- python-versiontools (>= 1.4), python-testtools (>= 0.9.2), python-testscenarios (>= 0.1)
+Build-Depends:  python | python-all | python-dev | python-all-dev,
+ debhelper (>= 8.0.0),
+ python-setuptools, python-simplejson(>= 2.0.9)
+Build-Depends-Indep: python-sphinx (>= 1.0.7+dfsg) | python3-sphinx,
+ libjs-jquery, python-versiontools,
+ python-testtools, python-testscenarios
 Standards-Version: 3.9.5
 Maintainer: Neil Williams <codehelp@debian.org>
 Uploaders: Antonio Terceiro <terceiro@debian.org>,
@@ -16,17 +19,17 @@ Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}
 Provides: ${python:Provides}
 Suggests: python-json-schema-validator-doc
-Description: JSON manipulation utilities developed by the Linaro infrastructure team
- The most significant feature of json-schema-validator is a JSON Schema
- validator (conforming to a subset of second draft ot fhe specification).
+Description: JSON schema validation utility 
+ This package provides a JSON Schema validator 
+ conforming to a subset of second draft of the specification.
 
 Package: python-json-schema-validator-doc
 Section: doc
 Architecture: all
 Depends: ${sphinxdoc:Depends}, ${misc:Depends}
 Recommends: libjs-jquery
-Description: JSON manipulation utilities developed by the Linaro infrastructure team
- The most significant feature of json-schema-validator is a JSON Schema
- validator (conforming to a subset of second draft ot fhe specification).
+Description: JSON schema validation utility 
+ json-schema-validator provides a JSON Schema validator 
+ conforming to a subset of second draft of the specification.
  .
  This package contains the HTML documentation.
