@@ -22,6 +22,10 @@ Suggests: python-json-schema-validator-doc
 Description: JSON schema validation utility 
  This package provides a JSON Schema validator 
  conforming to a subset of second draft of the specification.
+ .
+ JSON files can be verified against a schema expressed in the
+ python source code, producing either a SchemaError exception
+ or ValidationError exception.
 
 Package: python-json-schema-validator-doc
 Section: doc
