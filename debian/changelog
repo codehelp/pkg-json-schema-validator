@@ -1,3 +1,12 @@
+json-schema-validator (2.3.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * Add Zygmunt (upstream) as uploader.
+  * Add pydist overrides to calculate dependencies and version
+    requirements.
+
+ -- Neil Williams <codehelp@debian.org>  Sat, 12 Apr 2014 20:23:23 +0100
+
 json-schema-validator (2.3-1) unstable; urgency=low
 
   * Ported to Debian for LAVA testing.
