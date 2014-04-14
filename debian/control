@@ -15,6 +15,7 @@ Homepage: https://github.com/zyga/json-schema-validator
 Vcs-Browser: https://github.com/codehelp/pkg-json-schema-validator
 Vcs-Git: https://github.com/codehelp/pkg-json-schema-validator.git
 X-Python-Version: >= 2.7
+XS-Testsuite: autopkgtest
 
 Package: python-json-schema-validator
 Architecture: all
