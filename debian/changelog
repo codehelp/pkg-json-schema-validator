@@ -1,3 +1,9 @@
+json-schema-validator (2.3.1-2) unstable; urgency=medium
+
+  * Fix inadvertent typo in debian/copyright to fix on LGPL-3.0
+
+ -- Neil Williams <codehelp@debian.org>  Thu, 08 May 2014 18:23:57 +0100
+
 json-schema-validator (2.3.1-1) unstable; urgency=medium
 
   * New upstream release
