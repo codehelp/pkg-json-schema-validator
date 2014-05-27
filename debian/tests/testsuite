@@ -2,5 +2,5 @@
 
 set -e
 
-python setup.py test
+python -m unittest discover /usr/lib/python2.7/dist-packages/json_schema_validator -v
 
