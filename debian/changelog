@@ -1,3 +1,10 @@
+json-schema-validator (2.3.1-4) UNRELEASED; urgency=medium
+
+  * Team upload.
+  * Remove myself from Uploaders
+
+ -- Antonio Terceiro <terceiro@debian.org>  Mon, 14 Aug 2017 14:28:05 -0400
+
 json-schema-validator (2.3.1-3) unstable; urgency=medium
 
   * Allow stderr and test the installed package using
